@@ -41,7 +41,6 @@ public class Q0Test {
         p.then((number) -> "" + number + " cats.")
          .then((cats) -> {
              assertEquals("5 cats.", cats);
-             hasRun = true;
          })
          .then((cats) -> {
              assertEquals("5 cats.", cats);

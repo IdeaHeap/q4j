@@ -6,7 +6,6 @@ package com.ideaheap.q4j;
 public class Deferred<T> implements Promise<T> {
     private boolean isResolved = false;
     private T val;
-    private 
 
     public Promise<T> promise() {
         return this;
