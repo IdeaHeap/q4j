@@ -1,0 +1,8 @@
+package com.ideaheap.q4j;
+
+/**
+ * Created by nwertzberger on 5/18/15.
+ */
+public interface ThenVoidCallback<T> {
+    void onDone(T val);
+}
